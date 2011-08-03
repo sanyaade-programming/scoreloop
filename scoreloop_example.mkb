@@ -1,0 +1,50 @@
+options
+{
+	strict
+	module_path="$MARMALADE_ROOT/examples"
+  	s3e-data-dir="data"
+}
+assets
+{
+	(data)
+	airplaysplash.jpg
+
+}
+deployments
+{
+}
+
+files
+{
+  	[source]
+  	(source)
+  	main.cpp
+  	game.h 
+  	game.cpp
+	basescene.h
+	mainmenu.h
+	mainmenu.cpp
+	gui.h
+	gui.cpp
+	common.h
+	common.cpp
+	profile.h
+	profile.cpp
+	scores.h
+	scores.cpp
+	render.h
+	render.cpp
+}
+
+define IW_HTTP_SSL
+
+subprojects
+{
+ 	iw2d
+	coresocial
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+}
