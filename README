@@ -1,2 +1,4 @@
-test2
+This is an example of integration of Scoreloop on multiple platforms (iOs, Android, Bada etc.).
+
+The basic idea was to create a common database of highscores for all platforms. In the table of highscores will be displayed rank, username and user's operating system, in this case, the owners of various operating systems will be able to compete with each other.
 
